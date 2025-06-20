@@ -16,6 +16,7 @@ export default function Footer() {
                 width={200}
                 height={200}
                 className="w-full"
+                alt="logo"
                 src="https://b2b-datenbank.de/assets/img/B2B-Logo.png"
               />
             </Link>
@@ -34,6 +35,7 @@ export default function Footer() {
               <Image
                 width={200}
                 height={200}
+                alt="dmca"
                 className="w-full max-w-[150px] rounded"
                 src="/icons/dmca-protected.png"
               />

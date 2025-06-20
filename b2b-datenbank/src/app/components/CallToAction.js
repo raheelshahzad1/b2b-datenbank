@@ -7,7 +7,7 @@ export default function CallToAction() {
     return (
         <div className="py-20 px-6">
             <div className="container mx-auto text-center">
-                <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-black mb-6">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center bg-gradient-to-r from-[#3a31c8] to-[#262085] bg-clip-text text-transparent mb-6">
                     Beginnen Sie Ihre Innovationsreise
                 </h2>
 

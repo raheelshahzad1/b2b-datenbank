@@ -5,11 +5,12 @@ import React from 'react';
 export default function Header() {
 
     return (
-        <header className="z-10 sticky top-0 bg-white flex border-b border-gray-200 py-4 px-4 sm:px-6 min-h-[75px] relative z-50">
-            <div className="flex flex-wrap items-center gap-5 w-full max-w-screen-xl mx-auto">
-                <a href="#">
+        <header className="z-10 sticky top-0 bg-white flex border-b border-gray-200 py-4 px-5 2xl:px-0 min-h-[75px] relative z-50">
+            <div className="flex flex-wrap items-center justify-between gap-5 w-full max-w-7xl mx-auto">
+                <a href="#" className='flex items-center gap-2'>
                     <img src="images/logo.svg" alt="logo"
                         className="w-12" />
+                    <h1 className='font-bold text-black text-xl'>B2B-Datenbank.de</h1>
                 </a>
 
                 <div id="collapseMenu"
@@ -26,7 +27,7 @@ export default function Header() {
                     </button>
 
                     <ul
-                        className="lg:flex gap-4 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
+                        className="lg:flex lg:items-center gap-4 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
                         <li className="mb-6 hidden max-lg:block">
                             <a href="#">
                                 <img src="https://readymadeui.com/readymadeui.svg" alt="logo" className="w-40" />
@@ -69,15 +70,17 @@ export default function Header() {
                                 Kontakt
                             </a>
                         </li>
+
+                        <li>
+                            <button
+                                className="py-2 px-8 rounded-full bg-secondary text-black cursor-pointer">
+                                Registrieren
+                            </button>
+                        </li>
                     </ul>
                 </div>
 
                 <div className="flex items-center max-lg:ml-auto max-lg:space-x-4">
-                    <button
-                        className="px-8 py-2 text-[15px] rounded-full font-medium text-white bg-gradient-to-r from-primary to-[#262085] cursor-pointer">
-                        Registrieren
-                    </button>
-
                     <button id="toggleOpen" className="lg:hidden cursor-pointer">
                         <svg className="w-7 h-7" fill="#333" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fillRule="evenodd"
