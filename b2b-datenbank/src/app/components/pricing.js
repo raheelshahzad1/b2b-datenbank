@@ -9,7 +9,7 @@ export default function Pricing() {
 
   return (
     <section className="py-24 font-poppins">
-      <div className="mx-auto max-w-7xl px-5 2xl:px-0">
+      <div className="mx-auto max-w-[1320px] px-5 2xl:px-0">
         <div className="mb-12 text-center">
           <h2 className="font-manrope text-3xl sm:text-4xl lg:text-5xl font-bold text-center bg-gradient-to-r from-[#3a31c8] to-[#262085] bg-clip-text text-transparent mb-4">
             Unsere Preispläne
@@ -58,6 +58,7 @@ export default function Pricing() {
               activeTab === 'unique' ? 'opacity-100' : 'opacity-0 max-h-0 overflow-hidden'
             }`}
           >
+
             <UniquePlans />
           </div>
 

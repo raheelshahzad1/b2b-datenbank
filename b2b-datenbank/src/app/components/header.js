@@ -6,7 +6,7 @@ export default function Header() {
 
     return (
         <header className="z-10 sticky top-0 bg-white flex border-b border-gray-200 py-4 px-5 2xl:px-0 min-h-[75px] relative z-50">
-            <div className="flex flex-wrap items-center justify-between gap-5 w-full max-w-7xl mx-auto">
+            <div className="flex flex-wrap items-center justify-between gap-5 w-full max-w-[1320px] mx-auto">
                 <a href="#" className='flex items-center gap-2'>
                     <img src="images/logo.svg" alt="logo"
                         className="w-12" />
@@ -36,7 +36,7 @@ export default function Header() {
 
                         <li className="max-lg:border-b max-lg:border-gray-300 max-lg:py-3 px-3">
                             <a href='#'
-                                className="hover:text-blue-700 text-primary font-medium block text-[15px]">
+                                className="hover:text-blue-700 font-medium block text-[15px]">
                                 Firmensuche
                             </a>
                         </li>
@@ -60,7 +60,7 @@ export default function Header() {
                         </li>
 
                         <li className="max-lg:border-b max-lg:border-gray-300 max-lg:py-3 px-3">
-                            <a href='#' className="hover:text-blue-700 text-slate-900 font-medium block text-[15px]">
+                            <a href='#' className="hover:text-blue-700 text-primary font-semibold block text-[15px]">
                                 Preise
                             </a>
                         </li>

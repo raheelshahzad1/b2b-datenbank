@@ -7,8 +7,8 @@ import * as Dialog from '@radix-ui/react-dialog';
 export default function VideoReviews() {
     return (
         <div className='bg-gray-50 py-20'>
-            <div className="max-w-7xl mx-auto px-5 2xl:px-0">
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center bg-gradient-to-r from-[#3a31c8] to-[#262085] bg-clip-text text-transparent mb-4">
+            <div className="max-w-[1320px] mx-auto px-5 2xl:px-0">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center bg-gradient-to-r from-[#3a31c8] to-[#262085] bg-clip-text text-transparent mb-4 leading-16">
                     Kundengeschichten vor der Kamera
                 </h2>
 
